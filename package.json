@@ -1,0 +1,8 @@
+{
+    "name": "chat-app-be",
+    "dependencies": {
+        "axios": "^0.21.0",
+        "express": "^4.15.2",
+        "socket.io": "^2.3.0"
+    }
+}
