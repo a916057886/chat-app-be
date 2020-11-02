@@ -222,7 +222,7 @@ const filterUsers = (users, userId) => {
 const generateNewUser = (socket) => {
     const userId = generateId(32);
     const username = generateName();
-    const nameColor = "#ffffff";
+    const nameColor = "#000000";
 
     axios.post(`https://chat-app-b0bb9.firebaseio.com/users.json`, {
         userId: userId,
